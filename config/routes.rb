@@ -6,6 +6,6 @@ root to: "homes#top"
 
 get 'homes/about', as: 'about'
 
-resources :post_images, only: [:new, :create, :index, :show]
+resources :post_images, only: [:new, :create, :index, :show, :destroy]
 
 end
